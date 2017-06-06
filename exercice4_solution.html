@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://www.scriptr.io/" />
+<title>exercice2_solution</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">exercice2_solution</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>file:///C:/Temp/exercice2.html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//title</td>
+	<td>Sign in</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//h1</td>
+	<td>Sign in to YourSite</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyAlert</td>
+	<td>Please enter your user name</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyAlert</td>
+	<td>Please enter your password</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=username</td>
+	<td>user1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password</td>
+	<td>password</td>
+</tr>
+<tr>
+	<td>verifyAlertNotPresent</td>
+	<td></td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
